@@ -1,0 +1,46 @@
+/* Genral rules */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-45deg, rgba(0, 238, 255.5), rgba(255, 0, 200, .5));
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:500&display=swap');
+
+
+span {
+  font-style: italic;
+}
+
+/* Main */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  filter: drop-shadow(8px 8px 5px 4px #000);
+  font-size: 2em;
+  line-height: 3em;
+  padding: 50px;
+  border-radius: 16px;
+  filter: drop-shadow(5px 5px 10px #000);
+  font-family: 'Baloo 2', cursive;
+}
+
+
+
