@@ -1,4 +1,4 @@
-/* Genral rules */
+/* General rules */
 body {
   box-sizing: border-box;
   margin: 0;
@@ -9,15 +9,6 @@ body {
 p {
   margin: 0;
   padding: 0;
-}
-
-/* Typography */
-
-@import url('https://fonts.googleapis.com/css?family=Baloo+2:500&display=swap');
-
-
-span {
-  font-style: italic;
 }
 
 /* Main */
