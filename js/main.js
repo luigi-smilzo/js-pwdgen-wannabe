@@ -10,4 +10,4 @@ var password = firstName + lastName + color;
 
 console.log(password);
 
-document.getElementById('psw').innerHTML = firstName + lastName + color + '20';
+document.getElementById('psw').innerHTML = password + '20';
